@@ -2,7 +2,6 @@
 @import "../node_modules/boilerplate-styles/styles/boilerplate.scss";
 
 body {
-    background-color: #FEFEFE;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -16,10 +15,10 @@ body {
 }
 
 .btn-primary {
-    background-color: #00b0f0;
+    background-color: $blue;
     border: 0;
 
     &:hover {
-        background-color: #ff4f0f;
+        background-color: $orange;
     }
 }
