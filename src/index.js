@@ -13,7 +13,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import './custom.scss';
 
 
-var restEndpoint = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
+var restEndpoint = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
 var currentQuote = "";
 var currentAuthor = "";
 
