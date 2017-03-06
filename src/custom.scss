@@ -1,3 +1,25 @@
 @import "../node_modules/normalize.css/normalize.css";
 @import "../node_modules/boilerplate-styles/styles/boilerplate.scss";
 
+body {
+    background-color: #FEFEFE;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#quote-machine {
+    height: 100vh;
+}
+
+#quote-symbol {
+    font-size: 4em;
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #00b0f0;
+    border: 0;
+
+    &:hover {
+        background-color: #ff4f0f;
+    }
+}

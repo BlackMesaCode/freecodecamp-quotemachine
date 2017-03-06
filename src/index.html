@@ -3,21 +3,33 @@
 <head>
     <!-- Encoding as early as possible: must be included completely within the first 1024 bytes of the document !-->
     <meta charset="UTF-8">
-    <title></title>
-    <meta name="description" content="">
+    <title>Quote Machine - FreeCodeCamp assignment</title>
+    <meta name="description" content="Quote Machine - FreeCodeCamp assignment">
     
     <!-- Will force Internet Explorer 8/9/10 to render the webpage in the highest available mode and not in a compatibility mode !-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- prevent mobile devices from faking a bigger viewport, which would result in zoomed out websites -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <!-- Place favicon.ico in the root directory - favicon is displayed in browsers favorite bar -->
 </head>
 <body>
-    <div class="dead-center">
-        <img src="./images/textlogo.png" alt="blackmesa logo">
+
+    <div class="container-fluid">
+        <div id="quote-machine" class="row justify-content-center align-items-center">
+            <div class="col-6">
+                <h1>Random Quote Machine</h1>
+                <span id="quote"></span>
+                <button id="new-quote-button" type="button" class="btn btn-primary">New quote</button>
+                <button id="tweet-quote-button" type="button" class="btn btn-primary"><i class="fa fa-twitter"></i></button>
+            </div>
+        </div>
+
     </div>
+
+
+
     <!-- polyfill.io reads user agent arguments and returns only the polyfills that are needed by the users browser -->
     <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
 </body>
